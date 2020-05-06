@@ -4,28 +4,6 @@ import http from "http";
 import Orbty from "orbty";
 
 /**
- * Http exception
- * HTTP Exception error.
- * @constructor
- * @param {string} message - HTTP error message
- * @param {number} [number] - HTTP code status
- */
-export class HttpException extends Error {
-  public status: number;
-  public message: string;
-  public name: string;
-
-  constructor(message: string, status?: number) {
-    super(message);
-    this.name = this.constructor.name;
-    Error.captureStackTrace(this, this.constructor);
-    this.status = status || 500;
-    this.message = message;
-  }
-}
-
-
-/**
  * Api class. Implements orbty HTTP API
  * Auto transform controllers handler in orbty HTTP routers
  * @constructor
