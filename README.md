@@ -1,7 +1,7 @@
 Typescript Orbty
 ====================
 
-Library dedicated to typescript that allows using [Orbty](https://www.npmjs.com/package/orbty) easily through decorators using simple syntax and supporting automatic HTTP validations.
+Library dedicated to typescript that allows using [Orbty](https://www.npmjs.com/package/orbty) easily through decorators using simple syntax and supporting automatic to Data Transfer Object validations.
 
 ## Get start
 
